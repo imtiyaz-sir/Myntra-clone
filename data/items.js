@@ -62,7 +62,7 @@ const items = [
     },
     {
         id: '005',
-        image: './images/5.jpg',
+        image: '.images/5.jpg',
         company: 'Roadster',
         item_name: 'Pure Cotton T-shirt',
         original_price: 1399,
@@ -92,7 +92,7 @@ const items = [
     },
     {
         id: '007',
-        image: '/images/7.jpg',
+        image: 'images/7.jpg',
         company: 'The Indian Garage Co',
         item_name: 'Men Slim Fit Regular Shorts',
         original_price: 1599,
@@ -105,7 +105,7 @@ const items = [
     },
     {
         id: '008',
-        image: '/images/8.jpg',
+        image: 'images/8.jpg',
         company: 'Nivea',
         item_name: 'Men Fresh Deodrant 150ml',
         original_price: 285,
@@ -120,7 +120,7 @@ const items = [
     },
     {
         id: '009',
-        image: '/images/9.jpg',
+        image: 'images/9.jpg',
         company: 'IMAX',
         item_name: 'full dress',
         original_price: 485,
@@ -135,7 +135,7 @@ const items = [
     },
     {
         id: '10',
-        image: '/images/10.jpg',
+        image: 'images/10.jpg',
         company: 'pogo',
         item_name: 'long full saree',
         original_price: 785,
@@ -150,7 +150,7 @@ const items = [
     },
     {
     id: '11',
-    image: '/images/11.jpg',
+    image: 'images/11.jpg',
     company: 'CN',
     item_name: 'new style pant shirt',
     original_price: 885,
@@ -165,7 +165,7 @@ const items = [
 },
 {
     id: '12',
-    image: '/images/12.jpg',
+    image: 'images/12.jpg',
     company: 'Moon',
     item_name: 'flexble mobile stand ',
     original_price: 486,
