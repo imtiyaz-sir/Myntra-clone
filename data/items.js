@@ -62,7 +62,7 @@ const items = [
     },
     {
         id: '005',
-        image: '.images/5.jpg',
+        image: 'images/5.jpg',
         company: 'Roadster',
         item_name: 'Pure Cotton T-shirt',
         original_price: 1399,
@@ -77,7 +77,7 @@ const items = [
     },
     {
         id: '006',
-        image: '../images/6.jpg',
+        image: 'images/6.jpg',
         company: 'Nike',
         item_name: 'Men ReactX Running Shoes',
         original_price: 14995,
