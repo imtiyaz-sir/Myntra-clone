@@ -77,7 +77,7 @@ const items = [
     },
     {
         id: '006',
-        image: '/images/6.jpg',
+        image: '../images/6.jpg',
         company: 'Nike',
         item_name: 'Men ReactX Running Shoes',
         original_price: 14995,
@@ -92,7 +92,7 @@ const items = [
     },
     {
         id: '007',
-        image: '/images/7.jpg',
+        image: '../images/7.jpg',
         company: 'The Indian Garage Co',
         item_name: 'Men Slim Fit Regular Shorts',
         original_price: 1599,
@@ -105,7 +105,7 @@ const items = [
     },
     {
         id: '008',
-        image: '/images/8.jpg',
+        image: '../images/8.jpg',
         company: 'Nivea',
         item_name: 'Men Fresh Deodrant 150ml',
         original_price: 285,
