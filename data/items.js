@@ -152,7 +152,7 @@ const items = [
     },
     {
         id: '11',
-        image: `/${repoName}/images/11.jpg`,
+        image: `images/11.jpg`,
         company: 'CN',
         item_name: 'new style pant shirt',
         original_price: 885,
@@ -167,7 +167,7 @@ const items = [
     },
     {
         id: '12',
-        image: `/${repoName}/images/12.jpg`,
+        image: `images/12.jpg`,
         company: 'Moon',
         item_name: 'flexble mobile stand ',
         original_price: 486,
