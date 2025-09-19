@@ -90,7 +90,7 @@ let price = parseFloat((item.original_price - discount));
 console.log(price);
     return ` <div class="bag-item-container">
                     <div class="item-left-part">
-                        <img class="bag-item-img" src="$..{item.image}" alt="">
+                        <img class="bag-item-img" src="$..{item.image}" alt="photo">
                     </div>
                     <div class="item-right-part">
                     <div class="company">${item.company}</div>
