@@ -165,7 +165,7 @@ const items = [
 },
 {
     id: '12',
-    image: 'images/12.jpg',
+    image: '/images/12.jpg',
     company: 'Moon',
     item_name: 'flexble mobile stand ',
     original_price: 486,
