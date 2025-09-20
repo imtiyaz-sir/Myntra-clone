@@ -84,7 +84,7 @@ function generateItemHTML(item){
 let discount = (item.original_price * item.discount_percentage) / 100;
 
 
-console.log(discount);  
+
 
 let price = parseFloat((item.original_price - discount));
 console.log(price);
