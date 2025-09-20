@@ -208,11 +208,12 @@ border-style: 2px solid #FF0000;
     height: 100%;
     font-size: 20px;
     font-weight: bold;
-    background: rgb(255, 63, 108);
+    background: rgba(136, 136, 136, 1);
     border: none;
     color: #FFFFFF;
     
 }
+
 .issue{
     
 }
