@@ -127,6 +127,13 @@ console.log(price);
     setTimeout(() => {
       loadingScreen.style.display = "none";
       confirmationScreen.style.display = "flex";
+      // 🟢 Clear cart after placing order
+    bagItems = [];
+    localStorage.setItem("bagItems", JSON.stringify(bagItems));
+    loadbagItemsObjects();
+    displayBagIcon();
+    displayBagItems();
+    displayBagSummary();
     }, 3000);
   });
 
