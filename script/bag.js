@@ -84,7 +84,7 @@ function generateItemHTML(item){
 let discount = (item.original_price * item.discount_percentage) / 100;
 
 
-console.log(discount);  
+
 
 let price = parseFloat((item.original_price - discount));
 console.log(price);
@@ -127,6 +127,13 @@ console.log(price);
     setTimeout(() => {
       loadingScreen.style.display = "none";
       confirmationScreen.style.display = "flex";
+      // 🟢 Clear cart after placing order
+    bagItems = [];
+    localStorage.setItem("bagItems", JSON.stringify(bagItems));
+    loadbagItemsObjects();
+    displayBagIcon();
+    displayBagItems();
+    displayBagSummary();
     }, 3000);
   });
 
