@@ -30,6 +30,10 @@ if(!itemsContainerElement){
 }
 let innerHtml = '';
 items.forEach(item => {
+  
+  let discount = (item.original_price * item.discount_percentage) / 100;
+    let price = Math.round((item.original_price - discount));
+    
   innerHtml +=
     `  <div class="item-container">
     <div class="item-img">
@@ -47,11 +51,13 @@ items.forEach(item => {
                 ${item.item_name}
              </div>
              <div class="price">
-                 <span class="current-price">${item.current_price}</span>
+                 <span class="current-price">${price}</span>
                  <span class="original-price">${item.original_price}</span>
                  <span class="discount">(${item.discount_percentage}% OFF)</span>
              </div>
              <button class="btn-add-bag"     onclick = "addToBag(${item.id});">Add to bag</button>
+             <!-- Hover button (hidden by default) -->
+<button class="btn-watchlist">♡ Wishlist</button>
           </div>`
 });
 itemsContainerElement.innerHTML = innerHtml;

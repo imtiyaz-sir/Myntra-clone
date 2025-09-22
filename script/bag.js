@@ -86,7 +86,7 @@ let discount = (item.original_price * item.discount_percentage) / 100;
 
 
 
-let price = parseFloat((item.original_price - discount));
+let price = Math.round((item.original_price - discount));
 console.log(price);
     return ` <div class="bag-item-container">
                     <div class="item-left-part">
