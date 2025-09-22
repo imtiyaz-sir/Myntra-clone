@@ -56,8 +56,7 @@ items.forEach(item => {
                  <span class="discount">(${item.discount_percentage}% OFF)</span>
              </div>
              <button class="btn-add-bag"     onclick = "addToBag(${item.id});">Add to bag</button>
-             <!-- Hover button (hidden by default) -->
-<button class="btn-watchlist">♡ Wishlist</button>
+
           </div>`
 });
 itemsContainerElement.innerHTML = innerHtml;

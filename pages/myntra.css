@@ -323,6 +323,8 @@ text-decoration: line-through;
     padding: 5px 15px;
     border-radius: 10px;
     cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
 }
 .bag-item-count {
     background-color: #f16565;
@@ -351,23 +353,20 @@ a.action_container:link {
     font-weight: bold;
     font-size: 22px;
 }
-/* Default state */
-.btn-watchlist {
-  display: none; /* pehle hidden */
-  margin-top: 8px;
-  font-size: 18px;
-  width: 100%;
-  background-color: lightpink;
-  border: none;
-  padding: 5px 15px;
-  border-radius: 10px;
-  cursor: pointer;
+
+/* Image hover hone par button ka text change ho */
+/* Jab image hover ho to button ka text badal jaye */
+.item-img:hover ~ .btn-add-bag::after {
+  content: "♡ Wishlist";   /* ❤️ Heart ke sath Wishlist text */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-weight: bold;
 }
 
-/* Jab item-container pe hover ho */
-.item-container:hover .btn-add-bag {
-  display: none; /* Add to Bag hide */
+.item-img:hover ~ .btn-add-bag {
+  color: transparent;        /* “Add to Bag” text chhupa do */
+  background-color: #FFECEF; /* thoda light pink hi rahe */
 }
-.item-container:hover .btn-watchlist {
-  display: block; /* Wishlist show */
-}
+
