@@ -351,3 +351,23 @@ a.action_container:link {
     font-weight: bold;
     font-size: 22px;
 }
+/* Default state */
+.btn-watchlist {
+  display: none; /* pehle hidden */
+  margin-top: 8px;
+  font-size: 18px;
+  width: 100%;
+  background-color: lightpink;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Jab item-container pe hover ho */
+.item-container:hover .btn-add-bag {
+  display: none; /* Add to Bag hide */
+}
+.item-container:hover .btn-watchlist {
+  display: block; /* Wishlist show */
+}
